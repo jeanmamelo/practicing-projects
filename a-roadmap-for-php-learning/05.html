@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>My Cupcakes</h1>
+<table class="cupcake-table">
+{% for cupcake in cupcakes %}
+<tr>
+  <td class="col-flavour">{{ cupcake.flavour }}</td>
+  <td class="col-desc">{{ cupcake.description }}</td>
+  <td class="col-price">{{ cupcake.price }}</td>
+</tr>
+<?php } ?>
+</table>
+{% endblock %}
