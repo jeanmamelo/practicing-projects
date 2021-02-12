@@ -1,0 +1,34 @@
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Celke</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready( function () {
+				$('#listar').DataTable({
+					"processing": true,
+					"serverSide": true,
+					"ajax": {
+						"url": "proc_pesq_user.php",
+						"type": "POST"
+					},
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h1>Listar usuários</h1>
+		<table id="listar" class="display" style="width:100%">
+			<thead>
+				<tr>
+					<th>Nome</th>
+					<th>Salario</th>
+					<th>Idade</th>
+				</tr>
+			</thead>
+		</table>		
+	</body>
+</html>
