@@ -6,6 +6,7 @@ use GuzzleHttp\Client;
 $client = new Client([
     // base URI is used with relative requests
     'base_uri' => 'https://reqres.in/',
+    'verify' => false
 ]);
 
 $response = $client->request('POST', '/api/users', [
