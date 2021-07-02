@@ -10,7 +10,7 @@
 * Não é uma linguagem de programação;
 * É uma linguagem style sheet.
 
-### Comnetários
+## Comentários
 
 * Não irá afetar o seu código
 * Ajuda a lembrar blocos de códigos
@@ -73,3 +73,18 @@ p {
     color: blue;
 }
 ```
+
+## Anatomia
+
+```css
+h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    background: gray;
+}
+```
+
+* Selector
+* Declaration
+* Properties
+* Property Value
