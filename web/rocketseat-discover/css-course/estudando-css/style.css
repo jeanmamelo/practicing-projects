@@ -1,0 +1,10 @@
+/* @import 'https://fonts.googleapis.com/css2?family=Fira+Code&display=swap'; */
+
+h1 {
+    color: teal;
+    font-family: 'Fira Code', monospace;
+}
+
+strong {
+    color: tomato;
+}

@@ -107,3 +107,21 @@ Conecta um elemento HTML com o CSS
 * Posicionamentos, tamanhos, espaçamentos, bordas, cores
 * Caixa pode ficar ao lado uma da outra, ou acima
 * Elementos HTML são caixas
+
+## Adicionando CSS
+
+### inline
+
+* atributo `style`
+
+### <style>
+
+* tag html que irá conter o css
+
+### <link>
+
+* arquivo css externo
+
+### @import
+
+* arquivo css externo
