@@ -140,3 +140,21 @@
     null // nulo
     console.log(null)
 ```
+
+## Object
+
+* objeto
+* propriedades / atributos
+* funcionalidades / métodos
+
+```js
+{ propriedade: "valor" }
+
+console.log({
+    name: "Jean",
+    idade: 25,
+    andar: function() {
+        console.log('andando')
+    }
+})
+```
