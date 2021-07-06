@@ -77,48 +77,48 @@
 
 ## String
 
-    * cadeia de caracteres ABC
+* cadeia de caracteres ABC
 
-    ```js
-        "" // aspas duplas
-        console.log("Jean")
+```js
+    "" // aspas duplas
+    console.log("Jean")
 
-        '' // aspas simples
-        console.log('Jean')
+    '' // aspas simples
+    console.log('Jean')
 
-        `` // template literals ou template strings -> permite interpolação e multi linhas
-        console.log(`Jean ${1+1}`)
-    ```
+    `` // template literals ou template strings -> permite interpolação e multi linhas
+    console.log(`Jean ${1+1}`)
+```
 
 ## Number
 
-    * números
+* números
 
-    ```js
-        33       // inteiros
-        console.log(33)
+```js
+    33       // inteiros
+    console.log(33)
 
-        12.5     // reais
-        console.log(12.5)
+    12.5     // reais
+    console.log(12.5)
 
-        NaN      // Not a Number
-        console.log(12.5 / "asdf")
+    NaN      // Not a Number
+    console.log(12.5 / "asdf")
 
-        Infinity // infinito
-        console.log(Infinity)
-        console.log(12/0)
-    ```
+    Infinity // infinito
+    console.log(Infinity)
+    console.log(12/0)
+```
 
 ## Boolean
 
-    * somente 2 valores
+* somente 2 valores
 
-    ```js
-        true  // verdadeiro
-        console.log(true)
-        console.log(0==0)
+```js
+    true  // verdadeiro
+    console.log(true)
+    console.log(0==0)
 
-        false // falso
-        console.log(false)
-        console.log(0==1)
-    ```
+    false // falso
+    console.log(false)
+    console.log(0==1)
+```
