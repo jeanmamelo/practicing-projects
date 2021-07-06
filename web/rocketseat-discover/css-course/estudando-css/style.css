@@ -8,3 +8,8 @@ h1 {
 strong {
     color: tomato;
 }
+
+p {
+  margin: 0 auto;
+  padding-left: 15px;
+}
