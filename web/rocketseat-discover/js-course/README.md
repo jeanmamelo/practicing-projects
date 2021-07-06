@@ -74,3 +74,16 @@
 
 > vamos aprender os tipos de dados mais utilizados na linguagem
     * você sabia que é possível aprender 80% de uma lingua nova, com cerca de 20% do vocabulário? (até menos)
+
+## String
+
+    * cadeia de caracteres ABC
+
+    ```js
+        "" // aspas duplas
+        console.log("Jean")
+        '' // aspas simples
+        console.log('Jean')
+        `` // template literals ou template strings -> permite interpolação e multi linhas
+        console.log(`Jean ${1+1}`)
+    ```
