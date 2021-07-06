@@ -261,5 +261,5 @@ p {
 
 ### Consultas
 
-[Which Vendor Prefix?](http://ireade.github.io/which-vendor-prefix/)
-[Can I Use?](http://caniuse.com)
+* [Which Vendor Prefix?](http://ireade.github.io/which-vendor-prefix/)
+* [Can I Use?](http://caniuse.com)
