@@ -95,13 +95,13 @@
 * números
 
 ```js
-    33       // inteiros
+    33 // inteiros
     console.log(33)
 
-    12.5     // reais
+    12.5 // reais
     console.log(12.5)
 
-    NaN      // Not a Number
+    NaN // Not a Number
     console.log(12.5 / "asdf")
 
     Infinity // infinito
@@ -114,11 +114,29 @@
 * somente 2 valores
 
 ```js
-    true  // verdadeiro
+    true // verdadeiro
     console.log(true)
     console.log(0==0)
 
     false // falso
     console.log(false)
     console.log(0==1)
+```
+
+## Undefined vs null
+
+* undefined
+    * indefinido
+
+* null
+    * nulo
+    * objeto que não possui nada dentro
+    * diferente de indefinido
+
+```js
+    undefined // indefinido
+    console.log(undefined)
+
+    null // nulo
+    console.log(null)
 ```
