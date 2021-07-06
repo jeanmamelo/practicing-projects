@@ -72,8 +72,8 @@
 
 ### Como será a dinâmica do aprendizado?
 
-> vamos aprender os tipos de dados mais utilizados na linguagem
-    * você sabia que é possível aprender 80% de uma lingua nova, com cerca de 20% do vocabulário? (até menos)
+* vamos aprender os tipos de dados mais utilizados na linguagem
+    > você sabia que é possível aprender 80% de uma lingua nova, com cerca de 20% do vocabulário? (até menos)
 
 ## String
 
