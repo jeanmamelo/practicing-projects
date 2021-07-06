@@ -55,3 +55,22 @@
 ```js
     console.log("Bem vindos ao Starter")
 ```
+
+## Tipos de dados
+
+* gramática
+    * elementos da linguagem e suas combinações
+    * a arte de falar e escrever corretamente
+
+* vocabulário
+    * conjunto de termos e expressões
+    * agrupamento de palavras
+
+* precisamos saber como escrever
+* precisamos saber os significados
+* precisamos continuar aprendendo, para crescer nosso vocabulário
+
+### Como será a dinâmica do aprendizado?
+
+> vamos aprender os tipos de dados mais utilizados na linguagem
+    * você sabia que é possível aprender 80% de uma lingua nova, com cerca de 20% do vocabulário? (até menos)
