@@ -1,11 +1,11 @@
 /*
     String
 
-    * cadeia de caracteres ABC
+        * cadeia de caracteres ABC
 
-    "" // aspas duplas
-    '' // aspas simples
-    `` // template literals ou template strings -> permite interpolação
+        "" // aspas duplas
+        '' // aspas simples
+        `` // template literals ou template strings -> permite interpolação
 
 */
 console.log("Jean")
