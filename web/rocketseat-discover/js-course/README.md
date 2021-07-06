@@ -10,7 +10,7 @@
 
 ### O que podemos fazer?
 
-* podemos criar aplicações web, mobile ([React Native])(https://reactnative.dev/), desktop ([Electron])(https://www.electronjs.org/)
+* podemos criar aplicações web, mobile ([React Native](https://reactnative.dev/)), desktop ([Electron](https://www.electronjs.org/))
 * empresas famosas que usam:
     * [Facebook](https://developers.facebook.com/) ([Instagram](https://developers.facebook.com/products/instagram/), [Whatsapp](https://developers.facebook.com/docs/whatsapp/))
     * [Google](https://developers.google.com/) ([Youtube](https://developers.google.com/youtube), [Gmail](https://developers.google.com/gmail), [Drive](https://developers.google.com/drive))
