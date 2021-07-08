@@ -77,7 +77,7 @@
 
 ## String
 
-* cadeia de caracteres ABC
+* cadeia de caracteres. Ex.: ABC
 
 ```js
     "" // aspas duplas
@@ -176,3 +176,35 @@ console.log([
     3
 ])
 ```
+
+## Conclusão
+
+Conforme o ECMAScript standard temos 9 tipos de dados:
+
+* data types
+    * primitive / primitive value
+    * structural
+    * structural primitive
+
+### Primitivos
+
+* string
+* number
+* boolean
+* undefined
+* symbol
+* bigInt
+
+### Estruturais
+
+* object
+    * array
+    * map
+    * set
+    * date
+    * ...
+* function
+
+### Primitivo estrutural / structure root primitive
+
+* null

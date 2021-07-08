@@ -1,7 +1,7 @@
 /*
     String
 
-        * cadeia de caracteres ABC
+        * cadeia de caracteres: Ex.: ABC
 
         "" // aspas duplas
         '' // aspas simples
