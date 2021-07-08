@@ -158,3 +158,21 @@ console.log({
     }
 })
 ```
+
+## Array (vetores)
+
+* uma lista
+* agrupamento de dados
+
+```js
+["Jean", 25]
+
+console.log(["Jean", 25])
+
+console.log([
+    "Leite",
+    2,
+    "Ovo",
+    3
+])
+```
