@@ -208,3 +208,30 @@ Conforme o ECMAScript standard temos 9 tipos de dados:
 ### Primitivo estrutural / structure root primitive
 
 * null
+
+## Variáveis
+
+* nomes simbólicos para receber algum valor
+* atalhos de código
+* identificadores
+* 3 palavras reservadas para criar uma variável
+    * var
+    * let
+    * const
+
+```js
+// var
+var clima1 = "quente";
+clima1 = "frio";
+console.log(clima1);
+
+// let
+let clima2 = "quente";
+clima2 = "frio";
+console.log(clima2);
+
+// const
+const clima3 = "quente";
+clima3 = "frio"; // irá gerar um erro "assignment to constant variable"
+console.log(clima3);
+```
