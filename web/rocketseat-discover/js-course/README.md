@@ -235,3 +235,10 @@ const clima3 = "quente";
 clima3 = "frio"; // irá gerar um erro "assignment to constant variable"
 console.log(clima3);
 ```
+
+### Tipos dinâmicos
+
+O JS é uma linguagem fracamente tipada e dinâmica
+
+- variáveis não precisam ter um tipo previamente definido
+- podemos mudar o conteúdo da variável
