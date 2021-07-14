@@ -259,6 +259,9 @@ O JS é uma linguagem fracamente tipada e dinâmica
 O bloco, também criará um novo escopo. Chamamos de `block-scoped`.
 
 ### var
+
+A variável var é elevada para o escopo global, isso também é conhecido como hoisting
+
 ```js
 // var é global e poderá funcionar fora de um escopo de bloco
 console.log('> existe x antes do bloco? ', x)
