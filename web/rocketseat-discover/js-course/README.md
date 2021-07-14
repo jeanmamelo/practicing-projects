@@ -275,4 +275,17 @@ console.log('> existe x depois do bloco? ', x)
 
 ### let e const
 ```js
-// let e const são locais e só funcionam no escopo onde foram declaradas
+// let e const são locais e só funcionam no escopo onde foram criadas
+console.log('> existe y antes do bloco? ', y)
+console.log('> existe z antes do bloco? ', z)
+
+
+{
+    let y = 0
+    let z = 0
+}
+
+console.log('> existe y depois do bloco? ', y)
+console.log('> existe z depois do bloco? ', z)
+```
+
