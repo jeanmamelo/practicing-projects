@@ -289,3 +289,24 @@ console.log('> existe y depois do bloco? ', y)
 console.log('> existe z depois do bloco? ', z)
 ```
 
+## Variáveis
+
+* JS é case-sensitive (sensível ao caso)
+* JS aceita a cadeia de caracteres Unicode
+
+- Posso:
+    * iniciar com esses caracteres especiais: $ _
+    * iniciar com letras
+    * colocar acentos
+    * letras maiúsculas e minúsculas fazem diferença (case sensitive)
+
+- Não posso:
+    * iniciar com números
+    * colocar espaços vazios no nome
+
+- Ideal:
+    * criar nomes que fazem sentido
+    * que explique o que a variável é ou faz
+    * comelCase
+    * snake_case
+    * escrever em inglês
