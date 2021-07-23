@@ -68,9 +68,9 @@ const charactersWithMassGreaterThan100 = characters.filter((character) => charac
 //2. Get characters with height less than 200
 const charactersWithHeightLessThan200 = characters.filter((character) => character.height < 200);
 //3. Get all male characters
-const maleCharacters = characters.filter((character) => character.gender === 'male');
+const allMaleCharacters = characters.filter((character) => character.gender === 'male');
 //4. Get all female characters
-const femaleCharacters = characters.filter((character) => character.gender === 'female');
+const allFemaleCharacters = characters.filter((character) => character.gender === 'female');
 
 //***SORT***
 //1. Sort by mass
@@ -91,12 +91,20 @@ const byGender = characters.sort((a, b) => {
 
 //***EVERY***
 //1. Does every character have blue eyes?
+const allBlueEyes = characters.every((character) => character.eye_color === 'blue');
 //2. Does every character have mass more than 40?
+const allMassGreaterThan40 = characters.every((character) => character.mass > 40);
 //3. Is every character shorter than 200?
+const allShorterThan200 = characters.every((character) => character.height < 200);
 //4. Is every character male?
+const allMale = characters.every((character) => character.gender === 'male');
 
 //***SOME***
 //1. Is there at least one male character?
+const atLeastOneMaleCharacter = characters.some((character) => character.gender === 'male');
 //2. Is there at least one character with blue eyes?
+const atLeastOneBlueEyes = characters.some((character) => character.eye_color === 'blue');
 //3. Is there at least one character taller than 210?
+const atLeastOneTallerThan210 = characters.some((character) => character.height > 210);
 //4. Is there at least one character that has mass less than 50?
+const atLeastOneMassLessThan50 = characters.some((character) => character.mass < 50);
