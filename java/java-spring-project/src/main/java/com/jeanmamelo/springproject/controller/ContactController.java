@@ -4,6 +4,7 @@ import com.jeanmamelo.springproject.model.Contact;
 import com.jeanmamelo.springproject.repository.ContactRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.List;
 
@@ -17,7 +18,6 @@ public class ContactController {
         this.repository = contactRepository;
     }
 
-    // CRUD methods here
     @GetMapping
     public List findAll(){
         return repository.findAll();
@@ -31,15 +31,14 @@ public class ContactController {
     }
 
     @PostMapping
-    public Contact create(@RequestBody Contact contact){
-        return repository.save(contact);
+    public ResponseEntity<Void> create(@RequestBody Contact contact, UriComponentsBuilder uriComponentsBuilder){
+        repository.save(contact);
+        return ResponseEntity.created(uriComponentsBuilder.path("/contacts").buildAndExpand().toUri()).build();
     }
 
     @PutMapping(value="/{id}")
-    public ResponseEntity<Contact> update(
-            @PathVariable("id") long id,
-            @RequestBody Contact contact
-    ){
+    public ResponseEntity<Contact> update(@PathVariable("id") long id,
+            @RequestBody Contact contact) {
         return repository.findById(id)
                 .map(record -> {
                     record.setName(contact.getName());

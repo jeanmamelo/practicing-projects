@@ -17,8 +17,5 @@ public class Contact {
 
     private String name;
     private String email;
-
-    @Column(name="phone_number")
     private String phone;
-
 }
