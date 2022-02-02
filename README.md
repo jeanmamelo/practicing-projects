@@ -1,4 +1,4 @@
 # practicing-projects
- Some projects created for practice purposes
+ some projects created for practice purposes
  
- Made with ♥  by Jean Melo 😉
+ made with ♥  by Jean Melo 😉
