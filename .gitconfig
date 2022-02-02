@@ -1,0 +1,13 @@
+[user]
+	name = jeanmelokabum
+	email = jean.melo@kabum.com.br
+
+[alias]
+    s = status
+    l = log --all --graph --oneline --decorate
+
+[includeIf "gitdir:~/Documentos/jeanmamelo/"]
+    path = ~/Documentos/jeanmamelo/.gitconfig
+
+[core]
+	editor = code
