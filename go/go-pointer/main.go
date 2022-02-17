@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/jeanmamelo/practicing-projects/go/go-pointer/services"
+	"pointer/services"
 )
 
 func main() {
