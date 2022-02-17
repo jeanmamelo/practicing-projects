@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"pointer/services"
+
+	"github.com/jeanmamelo/practicing-projects/pointer/services"
 )
 
 func main() {

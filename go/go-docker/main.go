@@ -1,8 +1,9 @@
 package main
 
 import (
-	"calc/calc"
 	"fmt"
+
+	"github.com/jeanmamelo/practicing-projects/go/go-docker/calc"
 )
 
 func main() {
