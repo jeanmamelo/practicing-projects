@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-
 	"pointer/services"
 )
 
@@ -17,10 +16,10 @@ func main() {
 	// defer: to be executed after everything else
 	defer fmt.Println(divide)
 
-	p := services.Person{
-		Name: "Jean",
-	}
-	pp := services.NewPerson("Melo")
-	p.PrintPerson()
-	pp.PrintPerson()
+	// p := services.Person{
+	// 	Name: "Jean",
+	// }
+	// pp := services.NewPerson("Melo")
+	// p.PrintPerson()
+	// pp.PrintPerson()
 }
