@@ -44,6 +44,22 @@ func makeOddGenerator() func() uint {
 	}
 }
 
+// 5
+func fib(n int) int {
+	switch {
+
+	case n == 0:
+		return 0
+
+	case n == 1:
+		return 1
+
+	default:
+		return fib(n-1) + fib(n-2)
+
+	}
+}
+
 func main() {
 	//1
 	sum := sum([]int{1, 2, 3})
@@ -67,4 +83,16 @@ func main() {
 	fmt.Println(nextOdd())
 	fmt.Println(nextOdd())
 	fmt.Println(nextOdd())
+
+	//5
+	fib := fib(10)
+	fmt.Println(fib)
+
+	//6
+	recover := ex6()
+	defer fmt.Println(recover)
+}
+
+func ex6() error {
+	panic("jean")
 }
