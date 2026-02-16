@@ -3,4 +3,6 @@ resource "local_file" "example" {
     content = var.content
 }
 
-variable "content" {}
+variable "content" {
+    type = string
+}
